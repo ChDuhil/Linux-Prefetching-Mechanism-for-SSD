@@ -1,4 +1,11 @@
-
+/*
+* Auteur : Ch. Duhil
+* Auteur :Ti Hulin
+* Date de Création : 13 décembre 2016
+*
+* implementation fonctions  for a learning machin  on transition page.
+* The gaol of this fontions is 
+*/
 #include <linux/slab.h>
 #include <linux/list.h> 
 #include "file_access.h"
