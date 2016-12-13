@@ -6,7 +6,7 @@
 // Auteurs : Christophe Duhil
 // 
 // creation : 2016-12-12 
-// définition de de transition_list
+// définition de transition_list
 //
 //--------------------------------------------------------------------
 
@@ -32,3 +32,6 @@ struct transition_list
 };
 
 
+int init_transition_file(const char *name, int pg_numb);
+void add_transition_file(const char *name, int pg_numb);
+int init_file_access(struct transition_file* file, const char *name, int pg_numb);
